@@ -35,7 +35,7 @@ class chunker:
         # create normal sized chunks
         while(i + chunkSize < sigsrc.length):
             self.__chunks.append([i,i + chunkSize])
-            i += chunkSize 
+            i += chunkSize
 
         # has it exhaused the whole signal?
         if len(self.__chunks) == 0:
@@ -71,7 +71,7 @@ class chunker:
             init (:obj:`anything`): initialize variable to this, if undefined previously
 
         Returns:
-            :obj:`aything`: value of variable
+            :obj:`anything`: value of variable
         '''
 
         if init is None:
